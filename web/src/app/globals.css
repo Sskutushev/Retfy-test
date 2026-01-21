@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-gray-100 text-gray-900;
+    background: linear-gradient(to bottom right, #e0f2f7, #f0e0ff, #e0f2f7); 
+    font-family: 'Inter', sans-serif;
+}
